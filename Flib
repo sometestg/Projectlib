@@ -430,7 +430,7 @@ function Library:New(options)
         game.CoreGui.PurchasePromptSoggyware:Destroy()
     end)
 	Container.Footer.Buttons["2"].MouseButton1Click:Connect(function()
-        options["Yes"]()
+        options["⏣ Free"]()
         game.CoreGui.PurchasePromptSoggyware:Destroy()
     end)
 end
