@@ -62,7 +62,7 @@ function Library:New(options)
 
     Animator.Name = "Animator"
     Animator.Parent = PurchasePrompt
-    Animator.BackgroundTransparency = 0
+    Animator.BackgroundTransparency = 1
     Animator.BorderSizePixel = 0
     Animator.Size = UDim2.new(1, 0, 1, 0)
     Animator.Visible = false
@@ -77,7 +77,7 @@ function Library:New(options)
     Prompt.Parent = Animator
     Prompt.AnchorPoint = Vector2.new(0.5, 0.5)
     Prompt.BackgroundColor3 = Color3.fromRGB(57, 59, 61)
-    Prompt.BackgroundTransparency = 1.000
+    Prompt.BackgroundTransparency = 0
     Prompt.BorderSizePixel = 0
     Prompt.ClipsDescendants = true
     Prompt.Position = UDim2.new(0.5, 0, 0.5, 0)
