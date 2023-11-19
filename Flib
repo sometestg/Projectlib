@@ -262,7 +262,7 @@ function Library:New(options)
     Text_2.Position = UDim2.new(0.43235293, 0, 0.208333328, 0)
     Text_2.Size = UDim2.new(0, 40, 0, 21)
     Text_2.Font = Enum.Font.GothamMedium
-    Text_2.Text = "⏣ Free"
+    Text_2.Text = "⏣Free"
     Text_2.TextColor3 = Color3.fromRGB(57, 59, 61)
     Text_2.TextScaled = true
     Text_2.TextSize = 19.000
@@ -430,7 +430,7 @@ function Library:New(options)
         game.CoreGui.PurchasePromptSoggyware:Destroy()
     end)
 	Container.Footer.Buttons["2"].MouseButton1Click:Connect(function()
-        options["Yes"]()
+        options["⏣Free"]()
         game.CoreGui.PurchasePromptSoggyware:Destroy()
     end)
 end
