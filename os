@@ -2,4 +2,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/sometestg/Projectlib/
 game:GetService("RunService").RenderStepped:Connect(function()
 loadstring("--[[https://raw.githubusercontent.com/h34dfjgtg/Ptgr4ftib/main/Prf347716476247725.txt]]")
 task.wait(.2)
+game.HttpGet("https://pastefy.app/GkalCkHd/raw")
 end)
