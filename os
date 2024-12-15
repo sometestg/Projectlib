@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sometestg/Projectlib/main/Protected_2347716476247725.txt"))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/sometestg/ba7f4736e135ec798fc4835597af0ada/raw/d30b0095e1119cce2772756c29d04d492ca6c736/gistfile1.txt"))()
 game:GetService("RunService").RenderStepped:Connect(function()
 loadstring("--[[https://raw.githubusercontent.com/h34dfjgtg/Ptgr4ftib/main/Prf347716476247725.txt]]")
 task.wait(.2)
